@@ -1,3 +1,6 @@
+# https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
+
+
 def second_highest(array):
     array.sort()
     maximum = array[len(array) - 1]
@@ -9,6 +12,3 @@ def second_highest(array):
 n = int(input())
 array = list(map(int, input().split()))
 print(second_highest(array))
-© 2021 GitHub, Inc.
-Terms
-Priv
